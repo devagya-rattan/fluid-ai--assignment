@@ -11,7 +11,7 @@ app.use('/api/users', router);
 
 app.use('/',(req,res)=>{
     res.json({
-        message:"api is up"
+        message:"api is up version-1"
     })
 })
 
